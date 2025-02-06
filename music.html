@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name=keywords content="Praveen Singer , Praveen kumar singer , Praveen kumar koppolu">
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<meta http-equiv=X-UA-Compatible content="ie=edge">
+<title>Music Gallery - Praveen kumar koppolu </title>
+<link rel=icon type=image/png href=assets/Music/logo.jpg class="rounded-circle"/>
+<link rel=stylesheet href=scripts/css/style.css>
+<link rel=stylesheet href=scripts/css/responsive.css>
+<link rel=stylesheet href=scripts/css/animate.min.css>
+<link rel=stylesheet href=scripts/css/googlefonts.css>
+<link rel=stylesheet href=scripts/css/animate.css>
+<link rel=stylesheet href=scripts/css/bootstrap.min.css>
+<link rel=stylesheet href=scripts/css/font-awesome.min.css>
+<script src=scripts/js/jquery.min.js></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-light fixed-top">
+<a class="navbar-brand font-weight-bold ml-3" href=index.html><img src=assets/Music/logo.jpg class="rounded-circle mr-3" alt>Praveen kumar koppolu </a>
+<div class="collapse navbar-collapse" id=collapsibleNavId>
+<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+</ul>
+</div>
+</nav>
+<section id=musicSymbel2>
+<img src=./assets/banners/musicSymbel.png class=w-25 alt>
+</section>
+<section id=MusicContent>
+<div class=container-fluid style="margin:86px 0 0 0">
+<div class=row>
+<div class="col-lg-12 MusicTable">
+<h4 class="text-center my-3">Music Gallery</h4>
+<div class=table-responsive>
+<table class=table>
+<thead class=table-info>
+<tr class="wow fadeInLeft">
+<th>Track No : </th>
+<th>Track Name :</th>
+</tr>
+</thead>
+<tbody class="wow fadeInRight">
+<tr>
+<td scope=row>01</td>
+<td><a class=video-btn data-toggle=modal data-src=https://www.youtube.com/embed/lgLyKvUC2aA data-target=#myModal>Premincha Manasara</a></td>
+</tr>
+<tr>
+<td scope=row>02</td>
+<td><a class=video-btn data-toggle=modal data-src=https://www.youtube.com/embed/FjFJDXJmqgw data-target=#myModal>Manadhodu Kaadhal</a></td>
+</tr>
+<tr>
+<td scope=row>03</td>
+<td><a class=video-btn data-toggle=modal data-src=https://www.youtube.com/embed/HXjvQtceknQ data-target=#myModal>Preethiside Manasaare</a></td>
+</tr>
+<tr>
+<td scope=row>04</td>
+<td><a class=video-btn data-toggle=modal data-src=https://www.youtube.com/embed/uCxTgsQf9vA data-target=#myModal>Pyar Kia Dilse</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id=myModal tabindex=-1 role=dialog aria-labelledby=exampleModalLabel aria-hidden=true>
+<div class="modal-dialog modal-lg" role=document>
+<div class=modal-content>
+<div class=modal-body>
+<button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&times;</span>
+</button>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class=embed-responsive-item src id=video allowscriptaccess=always allow=autoplay></iframe>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class=container-fluid>
+<div class=row>
+<div class="col-lg-12 footer py-2">
+<p class="text-center mt-1 mt-md-0 text-white">© All Rights Reserved | Designed by <a href=http://www.wingherry.com/ target=_blank> Wingherry Technologies Pvt.Ltd.</a></p>
+</div>
+</div>
+</div>
+<script src=scripts/js/bootstrap.min.js></script>
+<script src=scripts/js/popper.min.js></script>
+<script src=scripts/js/functions.js></script>
+<script src=scripts/js/wow.min.js></script>
+<script>new WOW().init();$(document).ready(function(){(function(){$("#TestiCarousel").carousel({interval:3000});$("#TestiCarousel").carousel({interval:4600})}())});$(".marquee").marquee({direction:"left",speed:10000});(function(){$(".carousel-showmanymoveone .item").each(function(){var b=$(this);for(var a=1;a<3;a++){b=b.next();if(!b.length){b=$(this).siblings(":first")}b.children(":first-child").clone().addClass("cloneditem-"+(a)).appendTo($(this))}})}());</script>
+</body>
+</html>
